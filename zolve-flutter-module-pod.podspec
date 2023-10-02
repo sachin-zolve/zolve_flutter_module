@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "zolve-flutter-module-pod"
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = "CocoaPod implementation of Zolve Flutter Module"
 
 # This description is used to generate tags and improve search results.
