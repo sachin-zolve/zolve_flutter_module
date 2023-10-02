@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "zolve-flutter-module-pod"
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = "CocoaPod implementation of Zolve Flutter Module"
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "zolve-flutter-module" => "sachinv@zolve.com"}
   s.source           = { :git => "https://github.com/sachin-zolve/zolve_flutter_module.git", :tag => s.version.to_s }
-  s.source_files     = ['ios/*']
+  s.source_files     = ["ios/*","lib/*"]
 
 
   s.platform     = :ios, '10.0'
