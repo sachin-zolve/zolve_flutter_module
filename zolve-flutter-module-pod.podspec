@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "zolve-flutter-module" => "sachinv@zolve.com"}
   s.source           = { :git => "https://github.com/sachin-zolve/zolve_flutter_module.git", :tag => s.version.to_s }
+  s.source_files     = ['ios/*']
 
 
   s.platform     = :ios, '10.0'
