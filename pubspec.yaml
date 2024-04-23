@@ -27,11 +27,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_animated_button: ^2.0.3
   flutter_svg: ^2.0.9
-  flutter_animate: ^4.3.0
-  onboarding: ^3.1.0
+  syncfusion_flutter_pdfviewer: ^25.1.40
 #  flutter_svg: ^2.0.7
+
+dependency_overrides:
+  url_launcher_android: "<=6.0.32"
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +56,15 @@ flutter:
   assets:
     - assets/images/
     - assets/images/jpg/
+
+  fonts:
+    - family: Figtree
+      fonts:
+        - asset: assets/fonts/figtree_bold.ttf
+        - asset: assets/fonts/figtree_light.ttf
+        - asset: assets/fonts/figtree_medium.ttf
+        - asset: assets/fonts/figtree_regular.ttf
+        - asset: assets/fonts/figtree_semibold.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
