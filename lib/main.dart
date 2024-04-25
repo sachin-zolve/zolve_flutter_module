@@ -28,6 +28,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepOrange,
       ),
       debugShowCheckedModeBanner: false,
-      home:  route );
+      home:  route ?? Container() );
   }
 }

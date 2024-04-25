@@ -6,8 +6,12 @@ import 'package:test_module/core/deeplink_handler/deeplink_constants.dart';
 import 'package:test_module/presentation/pdfViewer/AppPdfViewerScreen.dart';
 
 Widget? getRoute(String deeplink) {
-  final data = jsonDecode(deeplink);
-  return getScreen(data);
+  try{
+    final data = jsonDecode(deeplink);
+    return getScreen(data);
+  }catch(e){
+    return Container(color: Colors.white,);
+  }
 }
 
 
